@@ -1,0 +1,77 @@
+.playvideo__container {
+  width: 65%;
+}
+
+.video__container {
+  width: 100%;
+}
+video {
+  width: 100%;
+}
+.action__container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  flex-wrap: wrap;
+}
+.left__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.left__container img {
+  height: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.left__container .channel__title {
+  margin: 0 10px;
+}
+.right__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.channel__title p {
+  font-size: 12px;
+}
+
+.right__container .like__container ,
+.dislike__container ,
+.share__container  {
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+  margin: 0 10px;
+  padding: 5px 20px;
+  border-radius: 7px;
+  background: var(--primary--color-2);
+  font-size: 12px;
+}
+
+.right__container .like__container img,
+.dislike__container img,
+.share__container img {
+    height: 20px;;
+    width: 20px
+}
+
+.description {
+  background: var(--primary--color-2);
+  margin: 5px;;
+  padding: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .playvideo__container {
+    width: 100%;
+  }
+  .action__container {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  .right__container {
+    margin: 1rem;
+  }
+}

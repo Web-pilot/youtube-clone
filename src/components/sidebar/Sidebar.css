@@ -1,0 +1,50 @@
+.sidebar__container {
+    background: var(--primary--color-2);
+    flex: 1;
+   
+}
+
+.links__item__container {
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.links__item__container li {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+    padding: 5px 0;
+    transition: 0.5s;
+}
+.links__item__container li:hover {
+    background: var(--primary--color-1);
+    transform : scale(0.96);
+}
+
+.links__item__container img {
+    height: 30px;
+    width: 30px;
+}
+
+.links__item__container p {
+    margin-left: 1rem;
+}
+
+.links__item__container .active {
+    border-bottom: 2px solid var(--primary--color-3);
+    width: 20%;
+}
+
+.subscribed__container h5 {
+    padding-left: 1rem;
+    margin-top: 14px;
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+
+.subscibed__channel__thumb {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}

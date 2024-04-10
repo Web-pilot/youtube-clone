@@ -1,0 +1,20 @@
+.comments__container {
+  display: flex;
+  font-size: 12px;
+}
+
+.comments__container .left__container img {
+  height: 30px;
+}
+
+.comments__container .right__container {
+  display: block;
+}
+
+.comments__container .right__container p {
+  width: 80%;
+}
+.comments__container .right__container p {
+  width: 80%;
+  padding-left: 10px;
+}

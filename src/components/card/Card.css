@@ -1,0 +1,44 @@
+.card__container {
+  flex: 3;
+}
+
+.flex__container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+
+.flex__container .flex__item .thumbnail {
+    width: 100%;
+    height: 200px;
+}
+
+.video__details {
+    display: flex;
+    align-items: center;
+}
+
+.video__details .channel__img {
+    width: 30%;
+}
+.video__details img {
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.video__details .info {
+    width: 65%;
+    margin-left: 5px;
+}
+
+.video__details p {
+    margin: 5px 0;
+}
+.video__details span {
+    letter-spacing: 1px;
+}
+
+
